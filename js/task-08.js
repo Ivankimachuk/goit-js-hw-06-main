@@ -13,6 +13,10 @@ function defaultSubmit (event)  {
         return alert('Будь ласка заповніть всі поля!') 
     };
 
+    console.log('Email : ', email.value );
+    console.log('Password : ' , password.value );
+
     event.currentTarget.reset();
 }
+
 
